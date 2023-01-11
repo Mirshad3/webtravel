@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Travels</title>
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="DSAThemes" />
+    <meta name="description" content="Dotcircle - Immigration and Visa Consulting Website Template" />
+    <meta name="keywords" content="Responsive, DSAThemes, One Page, Landing, Business, Coaching, Consulting, Creative, Immigration, Visa">
+
+
+    <!-- SITE TITLE -->
+    <title>Dotcircle - Immigration and Visa Consulting</title>
+
+    <!-- FAVICON AND TOUCH ICONS  -->
+    <link rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="~/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" href="~/images/apple-touch-icon.png">
+    <link rel="icon" href="https://dsathemes.com/html/vspro/files/apple-touch-icon.png" type="image/x-icon">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700,800,900&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FONT ICONS -->
+    <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" rel="stylesheet" crossorigin="anonymous">
+    <link href="~/css/flaticon.css" rel="stylesheet">
+
+    <!-- PLUGINS STYLESHEET -->
+    <link href="~/css/menu.css" rel="stylesheet">
+    <link id="effect" href="~/css/dropdown-effects/fade-down.css" media="all" rel="stylesheet">
+    <link href="~/css/tweenmax.css" rel="stylesheet">
+    <link href="~/css/magnific-popup.css" rel="stylesheet">
+    <link href="~/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/css/owl.theme.default.min.css" rel="stylesheet">
+
+    <!-- TEMPLATE CSS -->
+    <link href="~/css/blue.css" rel="stylesheet">
+
+    <!-- STYLE SWITCHER CSS -->
+    <!-- RESPONSIVE CSS -->
+    <link href="~/css/responsive.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- HEADER
+    ============================================= -->
+    <header id="header-2" class="header white-menu">
+        <div class="header-wrapper">
+
+
+            <!-- MOBILE HEADER -->
+            <div class="wsmobileheader clearfix">
+                <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+                <span class="smllogo"><img src="~/images/logo-black.png" width="250" height="70" alt="mobile-logo" /></span>
+                <a href="tel:123456789" class="callusbtn"><i class="fas fa-phone"></i></a>
+            </div>
+
+
+            <!-- HEADER STRIP -->
+            <div class="headtoppart bg-darkblue clearfix">
+                <div class="headerwp clearfix">
+
+                    <!-- Infotmation -->
+                    <div class="headertopleft">
+                        <div class="header-info clearfix">
+                            <span class="txt-400"><i class="fas fa-map-marker-alt"></i>95, Point Pedro Road, Jaffna</span>
+                        </div>
+                    </div>
+
+                    <!-- Contacts -->
+                    <div class="headertopright header-contacts">
+                        <a href="tel:123456789" class="callusbtn txt-400"><i class="fas fa-phone"></i>+94-214 300 327,</a>
+                        <a href="tel:123456789" class="callusbtn b-right txt-400">&#8194;+94-717 842 746</a>
+                        <a href="mailto:dotcircle.024@gmail.com" class="yellow-color txt-400"><i class="far fa-envelope-open"></i>dotcircle.024@gmail.com</a>
+                    </div>
+
+                </div>
+            </div>	<!-- END HEADER STRIP -->
+            <!-- NAVIGATION MENU -->
+            <div class="wsmainfull menu clearfix">
+                <div class="wsmainwp clearfix">
+
+
+                    <!-- LOGO IMAGE -->
+                    <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 360 x 90 pixels) -->
+                    <div class="desktoplogo"><a href="#hero-2" class="logo-black"><img src="~/images/logo-black.png" width="180" height="45" alt="header-logo"></a></div>
+                    <div class="desktoplogo"><a href="#hero-2" class="logo-white"><img src="~/images/logo-white.png" width="180" height="45" alt="header-logo"></a></div>
+
+
+                    <!-- MAIN MENU -->
+                    <nav class="wsmenu clearfix blue-header">
+                        <ul class="wsmenu-list">
+
+
+                            <!-- DROPDOWN MENU -->
+                            <li class="nl-simple" aria-haspopup="true">
+                                @Html.ActionLink("Home", "Index", "Home")
+
+                            </li>	<!-- END DROPDOWN MENU -->
+                            <!-- PAGES -->
+                            <li class="nl-simple" aria-haspopup="true">
+                                @Html.ActionLink("About Us", "About", "Home")
+
+                            </li>	<!-- END PAGES -->
+                            <!-- MEGAMENU -->
+                            <li aria-haspopup="true">
+                                <a href="#">Our Services <span class="wsarrow"></span></a>
+                                <div class="wsmegamenu clearfix">
+                                    <div class="container">
+                                        <div class="row">
+
+
+                                            <!-- MEGAMENU QUICK LINKS -->
+                                            <div class="col-md-12 col-lg-3">
+
+                                                <!-- Title -->
+                                                <h3 class="title">What We Offer:</h3>
+
+                                                <ul class="link-list">
+                                                    <li><a href="#">Student Visa Assessment</a></li>
+                                                    <li><a href="#">Working Visa Assessment</a></li>
+                                                    <li><a href="#">Business Visa Assessment</a></li>
+
+                                                    <li><a href="#">Visa Eligibility Assessment</a></li>
+                                                    <li><a href="#">Immigration Consultation</a></li>
+                                                </ul>
+
+                                            </div>	<!-- END MEGAMENU QUICK LINKS -->
+                                            <!-- MEGAMENU FEATURED NEWS -->
+                                            <div class="col-md-12 col-lg-5">
+
+                                                <!-- Title -->
+                                                <h3 class="title">Featured News:</h3>
+
+                                                <!-- Image -->
+                                                <div class="fluid-width-video-wrapper mb-15"><img src="~/images/blog/featured-news.jpg" alt="featured-news" /></div>
+
+                                                <!-- Text -->
+                                                <h5 class="h5-md"><a href="single-post.html">We make the visa process faster</a></h5>
+                                                <p class="wsmwnutxt">
+                                                    Porta semper lacus cursus, feugiat primis ultrice in ligula risus auctor
+                                                    tempus feugiat dolor impedit magna...
+                                                </p>
+
+                                            </div>	<!-- END MEGAMENU FEATURED NEWS -->
+                                            <!-- MEGAMENU LATEST NEWS -->
+                                            <div class="col-md-12 col-lg-4">
+
+                                                <!-- Title -->
+                                                <h3 class="title">Latest News:</h3>
+
+                                                <!-- Latest News -->
+                                                <ul class="latest-news">
+
+                                                    <!-- Post #1 -->
+                                                    <li class="clearfix d-flex align-items-center">
+
+                                                        <!-- Image -->
+                                                        <img class="img-fluid" src="~/images/blog/latest-post-1.jpg" alt="blog-post-preview" />
+
+                                                        <!-- Text -->
+                                                        <div class="post-summary">
+                                                            <a href="single-post.html">Etiam sapien risus ante auctor tempus accumsan an empor ...</a>
+                                                            <p>43 Comments</p>
+                                                        </div>
+
+                                                    </li>
+
+                                                    <!-- Post #2 -->
+                                                    <li class="clearfix d-flex align-items-center">
+
+                                                        <!-- Image -->
+                                                        <img class="img-fluid" src="~/images/blog/latest-post-2.jpg" alt="blog-post-preview" />
+
+                                                        <!-- Text -->
+                                                        <div class="post-summary">
+                                                            <a href="single-post.html">Blandit tempor a sapien ipsum, porta risus auctor justo ...</a>
+                                                            <p>38 Comments</p>
+                                                        </div>
+
+                                                    </li>
+
+                                                    <!-- Post #3 -->
+                                                    <li class="clearfix d-flex align-items-center">
+
+                                                        <!-- Image -->
+                                                        <img class="img-fluid" src="~/images/blog/latest-post-3.jpg" alt="blog-post-preview" />
+
+                                                        <!-- Text -->
+                                                        <div class="post-summary">
+                                                            <a href="single-post.html">Cursus risus an auctor risus laoreet turpis auctor varius ...</a>
+                                                            <p>29 Comments</p>
+                                                        </div>
+
+                                                    </li>
+                                                </ul>
+                                            </div>	<!-- END MEGAMENU LATEST NEWS -->
+
+
+                                        </div>  <!-- End row -->
+                                    </div>  <!-- End container -->
+                                </div>  <!-- End wsmegamenu -->
+                            </li>	<!-- END MEGAMENU -->
+                            <!-- SIMPLE NAVIGATION LINK -->
+                            <li class="nl-simple" aria-haspopup="true">@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+
+
+                            <!-- LAST NAVIGATION LINK -->
+                            <li class="nl-simple" aria-haspopup="true">
+                                <a href="#" class="header-btn btn-primary tra-black-hover last-link">Get Consultation</a>
+                            </li>
+
+
+                        </ul>
+                    </nav>	<!-- END MAIN MENU -->
+
+                </div>
+            </div>	<!-- END NAVIGATION MENU -->
+
+
+        </div>     <!-- End header-wrapper -->
+    </header>	<!-- END HEADER -->
+    <div class="container">
+
+        <main role="main">
+            <div id="page" class="page">
+                @RenderBody()
+
+
+                <footer id="footer-3" class="wide-40 footer division">
+                    <div class="container">
+
+
+                        <!-- FOOTER CONTENT -->
+                        <div class="row">
+
+
+                            <!-- FOOTER CONTACTS -->
+                            <div class="col-md-4 col-lg-3 col-xl-3">
+                                <div class="footer-box mb-40">
+
+                                    <!-- Title -->
+                                    <h5 class="h5-md darkblue-color">Head Office</h5>
+
+                                    <!-- Address -->
+                                    <p>95, Point Pedro Road, Jaffna</p>
+
+                                    <!-- Phone -->
+                                    <p class="mt-20">Phone: +94 2143 00327</p>
+
+                                    <!-- Email -->
+                                    <p class="foo-email">Email: <a href="mailto:dotcircle.024@gmail.com">dotcircle.024@gmail.com</a></p>
+
+                                    <!-- Phone -->
+                                    <p>Office Time: 9AM - 6PM</p>
+
+                                </div>
+                            </div>
+
+
+                            <!-- FOOTER LINKS -->
+                            <div class="col-md-4 col-lg-3 col-xl-3">
+                                <div class="footer-links mb-40">
+
+                                    <!-- Title -->
+                                    <h5 class="h5-md darkblue-color">Countries</h5>
+
+                                    <!-- Footer Links -->
+                                    <ul class="foo-links clearfix">
+                                        <li><a href="#">Singapore</a></li>
+                                        <li><a href="#">Australia</a></li>
+                                        <li><a href="#">United Kingdom</a></li>
+                                        <li><a href="#">Malaysia</a></li>
+                                        <li><a href="#">Malta</a></li>
+                                        <li><a href="#">UAE</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+
+                            <!-- FOOTER LINKS -->
+                            <div class="col-md-4 col-lg-3 col-xl-3">
+                                <div class="footer-links mb-40">
+
+                                    <!-- Title -->
+                                    <h5 class="h5-md darkblue-color">Visas</h5>
+
+                                    <!-- Footer Links -->
+                                    <ul class="foo-links clearfix">
+                                        <li><a href="#">Students Visa</a></li>
+                                        <li><a href="#">Travel Visa</a></li>
+                                        <li><a href="#">PR Visa</a></li>
+                                        <li><a href="#">Business Visa</a></li>
+                                    </ul>
+
+                                </div>
+                            </div>
+
+
+                            <!-- FOOTER NEWSLETTER FORM -->
+                            <div class="col-lg-3 col-xl-3">
+                                <div class="footer-form mb-20">
+
+                                    <!-- Title -->
+                                    <h5 class="h5-md darkblue-color">Stay Always In Touch</h5>
+
+                                    <!-- Newsletter Form Input -->
+                                    <form class="newsletter-form">
+
+                                        <div class="input-group">
+                                            <input type="email" class="form-control" placeholder="Your email address" required id="s-email">
+                                            <span class="input-group-btn">
+                                                <button type="submit" class="btn btn-primary tra-black-hover">Subscribe</button>
+                                            </span>
+                                        </div>
+
+                                        <!-- Newsletter Form Notification -->
+                                        <label for="s-email" class="form-notification"></label>
+
+                                    </form>
+
+                                </div>
+                            </div>
+
+
+                        </div>	<!-- END FOOTER CONTENT -->
+                        <!-- BOTTOM FOOTER -->
+                        <div class="bottom-footer bg-red">
+                            <div class="row d-flex align-items-center">
+
+
+                                <!-- FOOTER LOGO -->
+                                <div class="col-md-4 col-lg-3">
+                                    <!-- Footer Logo -->
+                                    <!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 400 x 100 pixels) -->
+                                    <img src="~/images/logo-black.png" width="200" height="50" alt="footer-logo">
+                                </div>
+
+
+                                <!-- FOOTER SOCIALS LINKS -->
+                                <div class="col-md-8 col-lg-9 text-right">
+                                    <p class="footer-copyright">&copy; Copyright <span>Dotcircle 2019</span>. All Rights Reserved</p>
+                                    <p class="p-sm"><a href="#">Privacy Policy</a></p>
+                                    <p class="p-sm"><a href="#">Terms & Conditions</a></p>
+                                    <p class="p-sm"><a href="#">Cookies</a></p>
+                                </div>
+
+
+                            </div>
+                        </div>	<!-- END BOTTOM FOOTER -->
+
+
+                    </div>	   <!-- End container -->
+                </footer>	<!-- END FOOTER-3 -->
+            </div>
+        </main>
+    </div>
+    <!-- FOOTER-3
+           ============================================= -->
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @* <script src="~/js/site.js" asp-append-version="true"></script>*@
+    <!-- EXTERNAL SCRIPTS
+        ============================================= -->
+    <script src="~/js/jquery-3.3.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/modernizr.custom.js"></script>
+    <script src="~/js/jquery.easing.js"></script>
+    <script src="~/js/jquery.appear.js"></script>
+    <script src="~/js/jquery.stellar.min.js"></script>
+    <script src="~/js/menu.js"></script>
+    <script src="~/js/materialize.js"></script>
+    <script src="~/js/jquery.scrollto.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/hero-request-form.js"></script>
+    <script src="~/js/hero-register-form.js"></script>
+    <script src="~/js/request-form.js"></script>
+    <script src="~/js/contact-form.js"></script>
+    <script src="~/js/comment-form.js"></script>
+    <script src="~/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/js/jquery.validate.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="~/js/custom.js"></script>
+
+
+
+
+    <script src="~/js/changer.js"></script>
+    <script defer src="~/js/styleswitch.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
